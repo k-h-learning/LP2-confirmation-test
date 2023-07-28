@@ -33,10 +33,11 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 98vw;
+  margin: 0.5% auto;
 }
 
 .header-wrap__logo {
-  width: 15rem;
+  width: 10rem;
 }
 
 .header-wrap__logo img {
@@ -56,7 +57,7 @@ header {
 
 .header-wrap__nav__list__item {
   text-align: center;
-  font-size: 1.8vw;
+  font-size: 1.25vw;
   font-weight: bold;
   color: #757575;
   margin: 0 2%;
@@ -71,7 +72,7 @@ header {
   background: linear-gradient(to right, #FFB800, #B6EDFF);
   border-radius: 50px;
   line-height: 3;
-  padding: 0 2%;
+  padding: 0.5% 1%;
 }
 
 .__try a {
@@ -85,10 +86,10 @@ header {
 
 .__try a::after {
   content: "";
-  width: 1.2vw;
-  height: 1.2vw;
-  border-right: 3px solid #fff;
-  border-top: 3px solid #fff;
+  width: 10px;
+  height: 10px;
+  border-right: 2.5px solid #fff;
+  border-top: 2.5px solid #fff;
   display: inline-block;
   transform: rotate(45deg);
   margin-left: 3%;
