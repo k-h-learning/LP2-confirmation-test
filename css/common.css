@@ -71,7 +71,7 @@ header {
   background: linear-gradient(to right, #FFB800, #B6EDFF);
   border-radius: 50px;
   line-height: 3;
-  padding: 0.5% 2%;
+  padding: 0 2%;
 }
 
 .__try a {
@@ -125,7 +125,7 @@ header .drawer {
 .top-wrap {
   width: 50%;
   position: absolute;
-  margin: 18% auto;
+  margin: 12.5% auto;
 }
 
 .top-wrap__txt {
