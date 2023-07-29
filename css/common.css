@@ -68,7 +68,7 @@ header {
 }
 
 .__try {
-  width: 20vw;
+  width: 15vw;
   background: linear-gradient(to right, #FFB800, #B6EDFF);
   border-radius: 50px;
   line-height: 3;
@@ -126,7 +126,10 @@ header .drawer {
 .top-wrap {
   width: 50%;
   position: absolute;
-  margin: 12.5% auto;
+  top: 25%;
+  left: 5%;
+  transform: translateY(-25%);
+  transform: translateX(-5%);
 }
 
 .top-wrap__txt {
@@ -595,14 +598,14 @@ header .drawer {
 @media screen and (max-width: 1024px) {
 
   .top {
-    height: 70vh;
+    height: 80vh;
   }
 
   .top-wrap {
     width: 80%;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -75%);
+    transform: translate(-50%, -60%);
     }
   
   .ttl__1 {
